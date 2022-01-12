@@ -38,6 +38,9 @@ module.exports = withCommerceConfig({
         },
     ].filter(Boolean)
   },
+  images: {
+    domains: ['tailwindui.com', 'images.unsplash.com'],
+  }
 })
 
 // Don't delete this console log, useful to see the commerce config in Vercel deployments

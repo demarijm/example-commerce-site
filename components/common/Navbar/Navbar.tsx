@@ -17,8 +17,8 @@ interface NavbarProps {
 const Navbar: FC<NavbarProps> = ({ links }) => (
   <NavbarRoot>
     <Container>
-      <div className={s.nav}>
-        <div className="flex items-center flex-1">
+      <div className="flex flex-row max-w-7xl py-5 items-center mx-auto">
+        <div className="flex flex-row items-center flex-1">
           <Link href="/">
             <a className={s.logo} aria-label="Logo">
               <Logo />
@@ -26,17 +26,16 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           </Link>
           <nav className={s.navMenu}>
             <Link href="/search">
-              <a className={s.link}>All</a>
+              <a className={s.link}>All Products</a>
             </Link>
-            {links?.map((l) => (
-              <Link href={l.href} key={l.href}>
-                <a className={s.link}>{l.label}</a>
-              </Link>
-            ))}
+            <Link href="https://www.upwork.com/messages/rooms/">
+              <a className={s.link}>Contact</a>
+            </Link>
+           
           </nav>
         </div>
         {process.env.COMMERCE_SEARCH_ENABLED && (
-          <div className="justify-center flex-1 hidden lg:flex">
+          <div className="justify-center hidden lg:flex">
             <Searchbar />
           </div>
         )}
