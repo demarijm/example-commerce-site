@@ -89,25 +89,24 @@ export default function Superhero() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Ready to Hire Demari,</span>{' '}
-                <span className="block text-gray-600 xl:inline">Arturo?</span>
+                <p className="block xl:inline">This will be the demo to send to our  
+                <span className=" text-gray-600 xl:inline"> clients</span>
+                </p>
+                
               </h1>
               <p className="mt-3 text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              None of the projects I wanted to send really fit what I would be doing for this project 
+              Ultimately, I'll change the styling to be cleaner, however, this is a similar stack my clients are using
               <br/>
               <br/>
-              So I built something super quick to show I know my way around configuration, pushing through errors, and getting some basic styling up in quickly. 
-              <br/>
-              <br/>
-              This site is built using NextJS, Shopify (GraphQL), Typscript, Tailwind, and deployed on Vercel. 
+              This site will also contain integration instructions for future clients 
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     href="https://www.upwork.com/messages/rooms/"
-                    className=" animate-bounce w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-black hover:bg-white hover:text-black hover:border-black md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-black hover:bg-white hover:text-black hover:border-black md:py-4 md:text-lg md:px-10"
                   >
-                    Hire Demari
+                    Try Demo
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
