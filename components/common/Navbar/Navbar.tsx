@@ -28,7 +28,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
             <Link href="/search">
               <a className={s.link}>All Products</a>
             </Link>
-            <Link href="https://www.upwork.com/messages/rooms/">
+            <Link href="">
               <a className={s.link}>Contact</a>
             </Link>
            
